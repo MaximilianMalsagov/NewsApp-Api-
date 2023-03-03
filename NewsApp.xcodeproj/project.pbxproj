@@ -13,6 +13,8 @@
 		D4D3F1A229B1D0ED00D322B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D3F1A029B1D0ED00D322B6 /* Main.storyboard */; };
 		D4D3F1A429B1D0EE00D322B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D3F1A329B1D0EE00D322B6 /* Assets.xcassets */; };
 		D4D3F1A729B1D0EE00D322B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D3F1A529B1D0EE00D322B6 /* LaunchScreen.storyboard */; };
+		D4D3F1AF29B1D1AB00D322B6 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D3F1AE29B1D1AB00D322B6 /* APICaller.swift */; };
+		D4D3F1B129B1D74A00D322B6 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D3F1B029B1D74A00D322B6 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D4D3F1A329B1D0EE00D322B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D3F1A629B1D0EE00D322B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4D3F1A829B1D0EE00D322B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D3F1AE29B1D1AB00D322B6 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		D4D3F1B029B1D74A00D322B6 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				D4D3F19A29B1D0ED00D322B6 /* AppDelegate.swift */,
 				D4D3F19C29B1D0ED00D322B6 /* SceneDelegate.swift */,
 				D4D3F19E29B1D0ED00D322B6 /* ViewController.swift */,
+				D4D3F1AE29B1D1AB00D322B6 /* APICaller.swift */,
 				D4D3F1A029B1D0ED00D322B6 /* Main.storyboard */,
 				D4D3F1A329B1D0EE00D322B6 /* Assets.xcassets */,
 				D4D3F1A529B1D0EE00D322B6 /* LaunchScreen.storyboard */,
 				D4D3F1A829B1D0EE00D322B6 /* Info.plist */,
+				D4D3F1B029B1D74A00D322B6 /* NewsTableViewCell.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				D4D3F19F29B1D0ED00D322B6 /* ViewController.swift in Sources */,
 				D4D3F19B29B1D0ED00D322B6 /* AppDelegate.swift in Sources */,
+				D4D3F1B129B1D74A00D322B6 /* NewsTableViewCell.swift in Sources */,
 				D4D3F19D29B1D0ED00D322B6 /* SceneDelegate.swift in Sources */,
+				D4D3F1AF29B1D1AB00D322B6 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
